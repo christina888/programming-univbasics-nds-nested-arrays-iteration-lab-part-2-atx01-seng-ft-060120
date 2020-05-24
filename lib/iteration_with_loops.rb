@@ -6,8 +6,7 @@ row_count = 0
       lowest = arr[row_count][element_index]
       while element_index < arr[row_count].count do
         if arr[row_count][element_index] < lowest
-          lowest = arr[row_count][element_index]
-       end
+          lowest = arr[row_count][element_index].join(' ')
        element_index += 1
       end
       low_temp << lowest
